@@ -8,11 +8,7 @@ Import files
 
 //COMMON & FRAMEWORK "(IT's REQUERED IN THIS PAGES ONLY)"
 @import "variable";
-@import "typography";
-// @import "bootstrap";  //IF YOU NEED MAKE IT ON & UPDATED.
-@import "mixins";
-@import "normalize";
-//@import "neat/neat";  //IF YOU NEED MAKE IT ON & UPDATED. 
+
 
 //component 
 @import "component/button";
@@ -29,4 +25,4 @@ Import files
 
 //CUSTOM & RESPONSIVE
 @import "my-custom";
-@import "responsive"; //NO NEED IF YOU USED NEAT
+@import "responsive";

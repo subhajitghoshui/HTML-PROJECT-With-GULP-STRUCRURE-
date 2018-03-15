@@ -5,26 +5,15 @@ BUTTON CSS
 .button,
 button,
 input[type=button],
-input[type=submit] {
-	padding: 5px 10px;
-	@include button-bg($primary-color, $white-color);
-}
+input[type=submit] { }
 
-.button-primary {
-	@include button-bg($primary-color, $white-color);
-}
+.button-primary { }
 
-.button-secondary {
-	@include button-bg($secondary-color, $white-color);
-}
+.button-secondary { }
 
-.button-black {
-	@include button-bg($text-color, $secondary-color);
-}
+.button-black { }
 
-.button-outline-secondary {
-	@include button-line($secondary-color, $white-color);
-}
+.button-outline-secondary { }
 
 /*======================================
 BUTTON CSS // END /- 

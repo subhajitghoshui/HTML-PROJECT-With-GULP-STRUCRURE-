@@ -3,7 +3,6 @@
 Include fonts
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
-//@import url();
 
 
 /*
@@ -13,10 +12,9 @@ Variables
 */
 
 $primary-font: 'Roboto', sans-serif;
-$secondary-font: 'Oswald', sans-serif;
 
 //Color variables  
-$primary-color: #012e4c !default;
+$primary-color: #000 !default;
 $secondary-color: #75b530 !default;
 
 $text-color: #333333 !default;
@@ -25,14 +23,4 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
    
 //=================================================================================================================//
-//IF NEAT SCSS USED -"Changed according to requerment"//
-
-    //Breakpoints
-    //$sm-desk : 1400px; 		//Small desktop
-    //$tab-land : 1024px; 	//Tablet landscape
-    //$tab-port : 768px; 		//Tablet portrait
-    //$mob-lg : 620px; 		//Large mobile
-    //$mob-small : 480px; 	//Small mobile 
-
-//Above Commented - IF NEAT SCSS USED -"Changed according to requerment"//
 
