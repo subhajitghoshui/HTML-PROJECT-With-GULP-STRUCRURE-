@@ -1,0 +1,31 @@
+/*====================================
+BUTTON CSS
+====================================== */
+
+.button,
+button,
+input[type=button],
+input[type=submit] {
+	padding: 5px 10px;
+	@include button-bg($primary-color, $white-color);
+}
+
+.button-primary {
+	@include button-bg($primary-color, $white-color);
+}
+
+.button-secondary {
+	@include button-bg($secondary-color, $white-color);
+}
+
+.button-black {
+	@include button-bg($text-color, $secondary-color);
+}
+
+.button-outline-secondary {
+	@include button-line($secondary-color, $white-color);
+}
+
+/*======================================
+BUTTON CSS // END /- 
+==================================== */
